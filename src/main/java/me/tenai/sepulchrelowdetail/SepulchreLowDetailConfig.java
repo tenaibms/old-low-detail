@@ -24,7 +24,7 @@ public interface SepulchreLowDetailConfig extends Config
 	/* all floors */
 	@ConfigItem(keyName = "brightnessDifference", name = "Brightness Difference", description  = "Difference between shadows and normal colors, if the brightness goes below zero,  it will be wrapped to zero.", position = 1, section=all_floor_section)
 	default int brightnessDifference() {
-		return 20;
+		return 23;
 	}
 	
 	@Range(min = 0, max = 8)
@@ -37,7 +37,7 @@ public interface SepulchreLowDetailConfig extends Config
 	@Range(min = 0, max = 63)
 	@ConfigItem(keyName = "floor12hue", name = "Floor 1-2 Hue", description = "", position = 3, section=floor_12_section)
 	default int floor12hue() {
-		return 21;
+		return 20;
 	}
 
 	@Range(min = 0, max = 7)
