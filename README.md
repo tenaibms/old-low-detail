@@ -19,3 +19,5 @@ Lastly, you can change the color of each floor. This uses the Jagex HSL color fo
 <img width="400" src="https://github.com/user-attachments/assets/32facc49-126f-4114-bb76-98824f4ddf9e" />
 
 While these examples are extreme, they hopefully demonstrate that you can change a lot about how sepulchre looks.
+
+Thank you to Star for being there when I was stuck and helping me figure out how to make this even work, and thanks to the runelite discord development channel for answering all my questions :)
